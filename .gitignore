@@ -1,0 +1,8 @@
+ String noun = nouns[random.nextInt(nouns.length)];
+        String verb = verbs[random.nextInt(verbs.length)];
+        String adjective = adjectives[random.nextInt(adjectives.length)];
+
+        String phrase = "Я " + adjective + " " + noun + " " + verb + "!";
+        System.out.println(phrase);
+    }
+}
